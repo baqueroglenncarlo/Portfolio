@@ -1,0 +1,27 @@
+/* Parallax Styles */
+
+.parallax{
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@media only screen and (max-device-width: 1024px){
+	.parallax{
+		background-attachment: scroll;
+	}
+}
+
+.parallax-image-1{
+	background-image: url('/assets/parallax image/5.png');
+}
+.parallax-image-2{
+	background-image: url('/assets/parallax image/2.jpg');
+}
+
+.section-about{
+	height: 1000px;
+	font-size: 36px;
+}
